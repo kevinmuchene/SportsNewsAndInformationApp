@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/diagAthleteName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Athlete Name"
+        android:layout_marginBottom="15dp"
+        android:inputType="text"/>
+
+    <EditText
+        android:id="@+id/diagAthleteSportName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Sport Name"
+        android:layout_marginBottom="15dp"
+        android:inputType="text"/>
+
+    <EditText
+        android:id="@+id/diagAthleteCountry"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Country"
+        android:layout_marginBottom="15dp"
+        android:inputType="text"/>
+
+    <EditText
+        android:id="@+id/diagAthleteBestPerformance"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Best Performance"
+        android:layout_marginBottom="15dp"
+        android:inputType="text"/>
+
+    <EditText
+        android:id="@+id/diagAthleteMedals"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Medals"
+        android:layout_marginBottom="15dp"
+        android:inputType="text"/>
+
+    <EditText
+        android:id="@+id/diagAthleteFacts"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Facts"
+        android:layout_marginBottom="15dp"
+        android:inputType="text"/>
+
+    <Button
+        android:id="@+id/btnAddAthletes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Add Athlete Details"/>
+
+</LinearLayout>

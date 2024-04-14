@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <Spinner
+        android:id="@+id/sportTypeSpinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15dp"
+        android:entries="@array/sports_type"
+        android:inputType="text"/>
+
+    <EditText
+        android:id="@+id/etSportName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Sport Name"
+        android:layout_marginBottom="15dp"
+        android:inputType="text"/>
+
+    <EditText
+        android:id="@+id/etSportDescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="100dp"
+        android:hint="Sport Information"
+        android:inputType="textMultiLine|textCapSentences|textAutoCorrect"
+        android:gravity="top|start"
+        android:scrollbars="vertical"/>
+
+    <Button
+        android:id="@+id/btnAddSport"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Add Sport"/>
+
+</LinearLayout>

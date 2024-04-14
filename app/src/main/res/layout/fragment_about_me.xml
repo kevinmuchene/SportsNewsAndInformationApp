@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:context=".AboutMeFragment">
+
+    <ImageView
+        android:id="@+id/imageId"
+        android:layout_width="match_parent"
+        android:layout_height="251dp"
+        android:src="@drawable/kinush" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/nameId"
+        android:textStyle="bold"
+        android:textSize="26sp"
+        android:layout_marginTop="15dp"
+        android:text="Kevin Muchene"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/descriptionId"
+        android:textStyle="normal"
+        android:textSize="16sp"
+        android:layout_marginTop="15dp"
+        android:text="@string/myprofiledesc"/>
+
+</LinearLayout>

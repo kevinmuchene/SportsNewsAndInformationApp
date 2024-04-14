@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="5dp"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="sports type"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:layout_margin="5dp"
+        android:id="@+id/sportsTypeId"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="sports name"
+        android:textStyle="bold"
+        android:textSize="16sp"
+        android:layout_margin="5dp"
+        android:id="@+id/sportsNameId"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="sports instruction"
+        android:textStyle="normal"
+        android:layout_margin="5dp"
+        android:textSize="14sp"
+        android:id="@+id/sportsInstructionId"/>
+
+</LinearLayout>
