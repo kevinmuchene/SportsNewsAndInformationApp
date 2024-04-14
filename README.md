@@ -1,0 +1,5 @@
+![news fragment.png](..%2F..%2FDesktop%2Fnews%20fragment.png)
+![Athletes Fragment.png](..%2F..%2FDesktop%2FAthletes%20Fragment.png)
+![events fragment.png](..%2F..%2FDesktop%2Fevents%20fragment.png)
+![historical archives.png](..%2F..%2FDesktop%2Fhistorical%20archives.png)
+![sports fragment.png](..%2F..%2FDesktop%2Fsports%20fragment.png)
