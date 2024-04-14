@@ -73,25 +73,16 @@ class NewsFragment : Fragment() {
 
             if(imageUrl.isNotEmpty() && title.isNotEmpty() && description.isNotEmpty()) {
 
-                if(isValidImageUrl(imageUrl)) {
                     val newData = NewsData(imageUrl, title, description)
                     newsData.add(newData)
                     newsAdapter.notifyItemInserted(newsData.size - 1)
                     dialog.dismiss()
-                } else {
-                    Snackbar.make(binding.root, "Image url should start with 'https://' or 'http://'", Snackbar.LENGTH_SHORT).show()
-                }
 
             } else {
                 Snackbar.make(binding.root, "Please fill in all fields", Snackbar.LENGTH_SHORT).show()
             }
         }
         dialog.show()
-    }
-
-    fun isValidImageUrl(url: String): Boolean {
-        val regex = "^https?://([\\da-z.-]+)\\.([a-z.]{2,20})/([/\\w.-]*)/?".toRegex(RegexOption.IGNORE_CASE)
-        return regex.matches(url)
     }
 
 
